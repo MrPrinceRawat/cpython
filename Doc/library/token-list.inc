@@ -205,6 +205,14 @@
 
    Token value for ``"!"``.
 
+.. data:: NULLCOMPARE
+
+   Token value for ``"??"``.
+
+.. data:: DECIDELATER
+
+   Token value for ``"???"``.
+
 .. data:: OP
 
 .. data:: AWAIT
