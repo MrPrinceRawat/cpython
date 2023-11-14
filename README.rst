@@ -1,19 +1,19 @@
 Extended CPython 3.12
-========================
+=====================
 
 .. contents::
 
-Overview
-========================
 
-This repository contains the implementation of a new feature for CPython. The feature aims to address a commonly requested enhancement, offering potential improvements to the Python programming experience.
 
 Installation
-^^^^^^^^^^^^
+------------
 Download the binary file from the releases page.
 
 `Check Releases <https://github.com/MrPrinceRawat/cpython-extended/releases>`__ (opens in new tab/window)
 
+Overview
+--------
+This repository contains the implementation of a new feature for CPython. The feature aims to address a commonly requested enhancement, offering potential improvements to the Python programming experience.
 
 Feature Description
 ^^^^^^^^^^^^^^^^^^^
@@ -36,7 +36,7 @@ The '???' token is a placeholder for the type of the global variable. It is a sp
 
 
 Contributing
-^^^^^^^^^^^^
+------------
 
 Follow these instructions to set up the project on your local machine for development and testing purposes.
 
@@ -54,14 +54,14 @@ Running Tests
 
 Execute tests to verify the correct functionality of the implemented feature.
 
-.. code-block:: bash
-
 Example command to run tests
 
-python -m unittest discover tests/
+.. code-block:: bash
+
+   python -m unittest discover tests/
 
 Contributing
-
+^^^^^^^^^^^^
 Follow these steps to contribute to the project:
 
 1. Fork the repository.
@@ -71,13 +71,13 @@ Follow these steps to contribute to the project:
 5. Open a pull request with a clear title and description.
 
 Code Style
-
+----------
 Adhere to the coding style guide specified in PEP 8. Consistent code style is encouraged for readability.
 
 License
-
+-------
 This project is licensed under the `MIT License <LICENSE>`\_. Your contributions are appreciated.
 
-Acknowledgments
-
+Acknowledgements
+----------------
 Recognition to resources, libraries, and community support that contributed to the development of this feature.
